@@ -1,0 +1,216 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:paper",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "entryName": "minecraft:map",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:map"
+        },
+        {
+          "entryName": "minecraft:compass",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:compass"
+        },
+        {
+          "entryName": "minecraft:book#0",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "loot_travelers_backpack_deluxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 25.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "travelersbackpack:travelers_backpack"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 10.0
+      }
+    },
+    {
+      "name": "ic2",
+      "entries": [
+        {
+          "entryName": "copper_ingot",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:ingot"
+        },
+        {
+          "entryName": "tin_ingot",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:ingot"
+        },
+        {
+          "entryName": "iridium_ore",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:misc_resource"
+        },
+        {
+          "entryName": "iridium_shard",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:misc_resource"
+        },
+        {
+          "entryName": "ic2:bronze_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_pickaxe"
+        },
+        {
+          "entryName": "ic2:bronze_sword",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_sword"
+        },
+        {
+          "entryName": "ic2:bronze_helmet",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_helmet"
+        },
+        {
+          "entryName": "ic2:bronze_chestplate",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_chestplate"
+        },
+        {
+          "entryName": "ic2:bronze_leggings",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_leggings"
+        },
+        {
+          "entryName": "ic2:bronze_boots",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_boots"
+        },
+        {
+          "entryName": "empty",
+          "weight": 44,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

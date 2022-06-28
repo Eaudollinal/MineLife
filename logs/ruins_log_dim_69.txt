@@ -1,0 +1,38 @@
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_meadow, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_dunes, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_desert, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_jungle_edge, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_swampy_meadow, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_lake, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\border_swamp, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\border_plains, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_cold_lowland, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\down, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_savanna, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\down_center, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\down_swamp, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\border_desert, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_marsh, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_forest, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_jungle_hills, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_swampy_forest, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_lowland, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\separator, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_taiga, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\border_down, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_jungle, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_dense_forest, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\border_cold, creating empty folder for it: success
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\border_jungle, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_hilly_taiga, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\down_forest, creating empty folder for it: failed
+Did not find any Building data for C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\config\ruins_config\up_snowfields, creating empty folder for it: failed
+
+Loading options from: C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\saves\新的世界-\DIM69
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+anySpawnMinDistance = 32
+anySpawnMaxDistance = 2147483647
+Ruins mod loaded successfully for world C:\Users\Administrator\Desktop\.minecraft\versions\MineLife2\saves\新的世界-\DIM69, template files: 31

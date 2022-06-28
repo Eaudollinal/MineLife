@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "name": "ic2",
+      "entries": [
+        {
+          "entryName": "copper_ingot",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:ingot"
+        },
+        {
+          "entryName": "tin_ingot",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:ingot"
+        },
+        {
+          "entryName": "iridium_shard",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:misc_resource"
+        },
+        {
+          "entryName": "ic2:bronze_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_pickaxe"
+        },
+        {
+          "entryName": "ic2:filled_tin_can",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ic2:filled_tin_can"
+        },
+        {
+          "entryName": "empty",
+          "weight": 34,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "slowness_arrow",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:slowness\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "harming_arrow",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:harming\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "poison_arrow",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:poison\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "weakness_arrow",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:weakness\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

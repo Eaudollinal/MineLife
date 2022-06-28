@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "ic2",
+      "entries": [
+        {
+          "entryName": "ic2:treetap",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:treetap"
+        },
+        {
+          "entryName": "empty",
+          "weight": 2,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "§b羊绒衫",
+  "max_stack": 1,
+  "material": "LEATHER",
+  "slot": "CHEST",
+  "colored": true,
+  "type": "additions:armor"
+}

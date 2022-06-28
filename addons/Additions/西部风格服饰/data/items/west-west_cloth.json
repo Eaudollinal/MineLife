@@ -1,0 +1,7 @@
+{
+  "name": "§c牛仔马甲",
+  "max_stack": 1,
+  "material": "LEATHER",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

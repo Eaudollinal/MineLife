@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "mets_loot",
+      "entries": [
+        {
+          "entryName": "mets:nano_living_metal",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mets:nano_living_metal"
+        },
+        {
+          "entryName": "mets:niobium_dust",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mets:niobium_dust"
+        },
+        {
+          "entryName": "mets:titanium_dust",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mets:titanium_dust"
+        }
+      ],
+      "rolls": 5.0,
+      "bonus_rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.35,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

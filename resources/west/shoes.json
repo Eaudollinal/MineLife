@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"11": "shoes",
+		"particle": "block/base"
+	},
+	"elements": [
+		{
+			"name": "Left Leg",
+			"from": [-0.4, -0.3, -0.4],
+			"to": [4.4, 4.7, 4.4],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 2.5], "texture": "#11"},
+				"east": {"uv": [0, 2.5, 2.5, 5], "texture": "#11"},
+				"south": {"uv": [2.5, 0, 5, 2.5], "texture": "#11"},
+				"west": {"uv": [2.5, 2.5, 5, 5], "texture": "#11"},
+				"up": {"uv": [2.5, 7.5, 0, 5], "texture": "#11"},
+				"down": {"uv": [7.5, 0, 5, 2.5], "texture": "#11"}
+			}
+		},
+		{
+			"name": "Right Leg",
+			"from": [3.6, -0.3, -0.4],
+			"to": [8.4, 4.7, 4.4],
+			"faces": {
+				"north": {"uv": [2.5, 5, 5, 7.5], "texture": "#11"},
+				"east": {"uv": [5, 2.5, 7.5, 5], "texture": "#11"},
+				"south": {"uv": [5, 5, 7.5, 7.5], "texture": "#11"},
+				"west": {"uv": [0, 7.5, 2.5, 10], "texture": "#11"},
+				"up": {"uv": [10, 2.5, 7.5, 0], "texture": "#11"},
+				"down": {"uv": [5, 7.5, 2.5, 10], "texture": "#11"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "shoes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

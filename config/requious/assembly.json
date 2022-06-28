@@ -1,0 +1,392 @@
+[
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "brickkiln",
+    "model": "icn:brickkiln",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "gunsmaker",
+    "model": "icn:gunsmaker",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "ironmaking_furnace",
+    "model": "icn:ironmaking_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "chemolysis_machine",
+    "model": "icn:chemolysis_machine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "oven",
+    "model": "icn:oven",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "textile_platform",
+    "model": "icn:textile_platform",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "textile_machine",
+    "model": "icn:textile_machine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "drying_rack",
+    "model": "icn:drying_rack",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "spinning_frame",
+    "model": "icn:spinning_frame",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": false,
+    "extraVariants": [],
+    "resourceName": "loom_empty",
+    "model": "icn:loom_empty",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": false,
+    "extraVariants": [],
+    "resourceName": "loom_full",
+    "model": "icn:loom_full",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "mix_furnace",
+    "model": "icn:mix_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "crops_getter",
+    "model": "icn:crops_getter",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": false,
+    "extraVariants": [],
+    "resourceName": "steel_furnace_core",
+    "model": "icn:steel_furnace_core",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "machine_constructing",
+    "model": "icn:machine_constructing",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  }
+]

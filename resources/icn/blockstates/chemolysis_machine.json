@@ -1,0 +1,32 @@
+{  
+    "forge_marker": 1,
+    "defaults": {
+      "model": "icn:machine",
+      "textures": {
+        "up": "icn:blocks/chemolysis_machine-top",
+        "down": "icn:blocks/machine-normal",
+        "north": "icn:blocks/chemolysis_machine-front",
+        "east": "icn:blocks/machine-normal",
+        "south": "icn:blocks/machine-normal",
+        "west": "icn:blocks/machine-normal",
+        "particle": "icn:blocks/machine-normal"
+      },
+      "transform": "forge:default-block"
+    },
+    "variants":{
+      "normal":[{}],
+      "inventory":[{}],
+      "facing": {
+          "down":  { "x": 180 },
+          "up":    { },
+          "north": { "x": 90 },
+          "south": { "x": 90, "y": 180 },
+          "west":  { "x": 90, "y": 270 },
+          "east":  { "x": 90, "y": 90 }
+      },
+      "active": {
+        "true": {},
+        "false": {}
+      }
+    }
+  }

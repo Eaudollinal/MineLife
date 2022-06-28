@@ -1,0 +1,199 @@
+---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 2022-05-03 11:24:32 CST
+Description: Updating screen events
+
+java.lang.NullPointerException
+    at com.cleanroommc.multiblocked.api.gui.widget.imp.controller.structure.PatternWidget.onPosSelected(PatternWidget.java:159)
+    at com.cleanroommc.multiblocked.api.gui.widget.imp.SceneWidget.mouseReleased(SceneWidget.java:324)
+    at com.cleanroommc.multiblocked.api.gui.widget.WidgetGroup.mouseReleased(WidgetGroup.java:333)
+    at com.cleanroommc.multiblocked.api.gui.modular.ModularUIGuiContainer.mouseReleased(ModularUIGuiContainer.java:289)
+    at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:543)
+    at com.cleanroommc.multiblocked.api.gui.modular.ModularUIGuiContainer.handleMouseInput(ModularUIGuiContainer.java:227)
+    at com.cleanroommc.multiblocked.jei.ModularWrapper.handleMouseInput(ModularWrapper.java:44)
+    at com.cleanroommc.multiblocked.core.asm.hooks.JEIHooks.handleMouseInput(JEIHooks.java:23)
+    at mezz.jei.gui.recipes.RecipesGui.handleMouseInput(RecipesGui.java)
+    at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:501)
+    at net.minecraft.client.Minecraft.runTick(Minecraft.java:1759)
+    at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:4442)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Affected screen --
+  Screen name: mezz.jei.gui.recipes.RecipesGui
+
+-- Affected level --
+  Level name: MpServer
+  All players: 1 total; [EntityPlayerSP['Eaudoll'/690, l='MpServer', x=260.69, y=66.00, z=240.72]]
+  Chunk stats: MultiplayerChunkCache: 1087, 1087
+  Level seed: 0
+  Level generator: ID 00 - default, ver 1. Features enabled: false
+  Level generator options: 
+  Level spawn location: World: (180,64,252), Chunk: (at 4,4,12 in 11,15; contains blocks 176,0,240 to 191,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+  Level time: 28872 game time, 39497 day time
+  Level dimension: 0
+  Level storage version: 0x00000 - Unknown?
+  Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+  Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+  Forced entities: 97 total; [EntitySkeleton['骷髅'/768, l='MpServer', x=252.50, y=36.00, z=243.70], EntityCreeper['苦力怕'/769, l='MpServer', x=258.50, y=36.00, z=235.50], EntityCow['牛'/770, l='MpServer', x=253.20, y=71.00, z=283.28], EntitySkeleton['骷髅'/771, l='MpServer', x=280.28, y=58.00, z=231.64], EntityBat['蝙蝠'/772, l='MpServer', x=271.55, y=50.10, z=318.78], EntitySkeleton['骷髅'/774, l='MpServer', x=269.51, y=63.00, z=305.26], EntityWitch['女巫'/780, l='MpServer', x=275.50, y=30.00, z=305.50], EntityCreeper['苦力怕'/781, l='MpServer', x=281.50, y=56.00, z=312.50], EntityPlayerSP['Eaudoll'/690, l='MpServer', x=260.69, y=66.00, z=240.72], EntitySkeleton['骷髅'/789, l='MpServer', x=301.50, y=23.00, z=174.50], EntityBat['蝙蝠'/790, l='MpServer', x=281.17, y=21.15, z=179.38], EntityCreeper['苦力怕'/796, l='MpServer', x=291.50, y=16.00, z=187.50], EntityBat['蝙蝠'/797, l='MpServer', x=318.75, y=30.10, z=174.35], EntitySheep['羊'/801, l='MpServer', x=329.67, y=76.00, z=203.30], EntitySheep['羊'/802, l='MpServer', x=330.39, y=73.10, z=197.46], EntitySheep['羊'/803, l='MpServer', x=328.31, y=76.00, z=202.66], EntitySheep['羊'/804, l='MpServer', x=329.49, y=75.00, z=194.80], EntityBat['蝙蝠'/807, l='MpServer', x=300.76, y=49.00, z=234.34], EntityCreeper['苦力怕'/808, l='MpServer', x=294.50, y=36.00, z=251.50], EntityCreeper['苦力怕'/809, l='MpServer', x=293.50, y=36.00, z=249.50], EntitySpider['蜘蛛'/810, l='MpServer', x=302.01, y=70.00, z=243.00], EntityBat['蝙蝠'/811, l='MpServer', x=308.97, y=49.10, z=239.44], EntitySheep['羊'/817, l='MpServer', x=303.55, y=63.00, z=199.50], EntitySheep['羊'/818, l='MpServer', x=302.45, y=63.00, z=199.50], EntitySheep['羊'/819, l='MpServer', x=302.41, y=62.26, z=193.53], EntitySheep['羊'/820, l='MpServer', x=301.56, y=62.00, z=192.33], EntityWolf['狼'/821, l='MpServer', x=302.77, y=71.00, z=193.40], EntityZombie['僵尸'/822, l='MpServer', x=318.25, y=77.00, z=186.50], EntityBat['蝙蝠'/823, l='MpServer', x=323.79, y=30.77, z=172.61], EntityCreeper['苦力怕'/824, l='MpServer', x=330.50, y=47.00, z=161.50], EntityCreeper['苦力怕'/825, l='MpServer', x=325.50, y=47.00, z=161.50], EntityWolf['狼'/827, l='MpServer', x=310.50, y=72.00, z=197.50], EntityWolf['狼'/828, l='MpServer', x=305.52, y=72.00, z=195.43], EntityCreeper['苦力怕'/829, l='MpServer', x=288.49, y=17.00, z=220.79], EntitySheep['羊'/830, l='MpServer', x=289.42, y=73.00, z=223.45], EntityZombie['僵尸'/831, l='MpServer', x=300.18, y=72.00, z=210.19], EntitySpider['蜘蛛'/832, l='MpServer', x=320.00, y=33.00, z=279.04], EntitySheep['羊'/833, l='MpServer', x=336.78, y=69.00, z=278.45], EntitySheep['羊'/834, l='MpServer', x=336.28, y=69.00, z=279.55], EntitySheep['羊'/835, l='MpServer', x=337.14, y=69.00, z=280.55], EntitySpider['蜘蛛'/836, l='MpServer', x=326.01, y=69.00, z=278.95], EntitySheep['羊'/837, l='MpServer', x=318.42, y=73.00, z=304.18], EntityCow['牛'/838, l='MpServer', x=315.41, y=72.00, z=299.67], EntityCow['牛'/839, l='MpServer', x=319.83, y=73.00, z=300.84], EntityZombie['僵尸'/843, l='MpServer', x=294.43, y=44.00, z=319.50], EntityCow['牛'/844, l='MpServer', x=314.30, y=73.00, z=305.37], EntityCow['牛'/845, l='MpServer', x=316.54, y=74.00, z=307.23], EntitySheep['羊'/846, l='MpServer', x=313.66, y=74.00, z=309.25], EntityZombie['僵尸'/847, l='MpServer', x=307.50, y=47.00, z=268.50], EntityZombie['僵尸'/848, l='MpServer', x=306.50, y=47.00, z=265.50], EntitySkeleton['骷髅'/849, l='MpServer', x=320.53, y=34.00, z=252.76], EntitySkeleton['骷髅'/850, l='MpServer', x=305.50, y=24.00, z=248.50], EntityBat['蝙蝠'/851, l='MpServer', x=312.12, y=34.05, z=250.37], EntitySkeleton['骷髅'/852, l='MpServer', x=309.67, y=47.00, z=243.50], EntityBat['蝙蝠'/856, l='MpServer', x=301.28, y=51.08, z=292.55], EntityCreeper['苦力怕'/857, l='MpServer', x=307.08, y=66.00, z=296.73], EntityBat['蝙蝠'/858, l='MpServer', x=311.94, y=15.46, z=274.51], EntitySpider['蜘蛛'/859, l='MpServer', x=314.00, y=38.00, z=282.03], EntitySkeleton['骷髅'/860, l='MpServer', x=318.50, y=33.00, z=275.75], EntityBat['蝙蝠'/861, l='MpServer', x=325.52, y=36.92, z=261.76], EntityBat['蝙蝠'/862, l='MpServer', x=337.49, y=49.18, z=256.61], EntityZombie['僵尸'/863, l='MpServer', x=322.51, y=50.00, z=271.81], EntitySheep['羊'/864, l='MpServer', x=337.29, y=67.00, z=263.80], EntitySheep['羊'/881, l='MpServer', x=326.26, y=74.00, z=311.82], EntitySheep['羊'/882, l='MpServer', x=321.76, y=74.00, z=311.62], EntitySkeleton['骷髅'/691, l='MpServer', x=261.50, y=39.00, z=250.50], EntitySpider['蜘蛛'/720, l='MpServer', x=241.85, y=69.00, z=270.00], EntityZombie['僵尸'/727, l='MpServer', x=191.50, y=33.00, z=185.50], EntitySkeleton['骷髅'/728, l='MpServer', x=182.50, y=74.00, z=205.50], EntityZombie['僵尸'/729, l='MpServer', x=186.50, y=66.00, z=284.50], EntityCow['牛'/736, l='MpServer', x=222.51, y=71.00, z=217.81], EntitySkeleton['骷髅'/737, l='MpServer', x=221.73, y=69.00, z=212.50], EntitySheep['羊'/738, l='MpServer', x=211.52, y=70.00, z=228.70], EntitySpider['蜘蛛'/739, l='MpServer', x=218.50, y=72.00, z=228.50], EntityCow['牛'/741, l='MpServer', x=229.61, y=71.00, z=229.71], EntitySheep['羊'/742, l='MpServer', x=224.75, y=68.00, z=255.41], EntityCow['牛'/743, l='MpServer', x=238.14, y=65.00, z=209.64], EntitySkeleton['骷髅'/744, l='MpServer', x=229.46, y=69.00, z=216.77], EntitySheep['羊'/745, l='MpServer', x=229.83, y=71.00, z=271.67], EntitySkeleton['骷髅'/746, l='MpServer', x=234.50, y=70.00, z=270.50], EntitySheep['羊'/747, l='MpServer', x=235.73, y=76.00, z=291.46], EntityCreeper['苦力怕'/748, l='MpServer', x=233.50, y=82.00, z=297.50], EntityZombie['僵尸'/749, l='MpServer', x=235.50, y=82.00, z=301.50], EntitySheep['羊'/754, l='MpServer', x=244.45, y=64.00, z=216.60], EntitySheep['羊'/755, l='MpServer', x=258.48, y=68.00, z=200.73], EntityZombie['僵尸'/756, l='MpServer', x=276.50, y=23.00, z=185.50], EntityZombie['僵尸'/757, l='MpServer', x=269.50, y=23.00, z=161.50], EntityBat['蝙蝠'/758, l='MpServer', x=287.49, y=27.10, z=169.21], EntitySheep['羊'/759, l='MpServer', x=252.45, y=66.00, z=205.45], EntitySheep['羊'/760, l='MpServer', x=252.45, y=67.00, z=202.89], EntitySheep['羊'/761, l='MpServer', x=252.85, y=67.00, z=203.80], EntityCreeper['苦力怕'/762, l='MpServer', x=258.28, y=68.00, z=189.85], EntitySheep['羊'/763, l='MpServer', x=249.24, y=82.00, z=307.21], EntitySkeleton['骷髅'/764, l='MpServer', x=287.23, y=26.00, z=255.53], EntityCreeper['苦力怕'/765, l='MpServer', x=279.50, y=70.00, z=271.50], EntitySheep['羊'/766, l='MpServer', x=261.19, y=72.00, z=292.21], EntityZombie['僵尸'/767, l='MpServer', x=249.76, y=25.00, z=249.56]]
+  Retry entities: 0 total; []
+  Server brand: fml,forge
+  Server type: Integrated singleplayer server
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 7 (amd64) version 6.1
+  Java Version: 1.8.0_181, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 10827982424 bytes (10326 MB) / 12582912000 bytes (12000 MB) up to 13925089280 bytes (13280 MB)
+  JVM Flags: 12 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Xmn128m -Xmx13271m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+  IntCache: cache: 0, tcache: 0, allocated: 14, tallocated: 94
+  FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 86 mods loaded, 86 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                    | Version              | Source                                                | Signature                                |
+       |:------ |:--------------------- |:-------------------- |:----------------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft             | 1.12.2               | minecraft.jar                                         | None                                     |
+       | LCHIJA | mcp                   | 9.42                 | minecraft.jar                                         | None                                     |
+       | LCHIJA | FML                   | 8.0.99.99            | forge-1.12.2-14.23.5.2860.jar                         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | forge                 | 14.23.5.2860         | forge-1.12.2-14.23.5.2860.jar                         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | gravisuitepatchcore   | 1.0                  | minecraft.jar                                         | None                                     |
+       | LCHIJA | mixinbooter           | 4.2                  | minecraft.jar                                         | None                                     |
+       | LCHIJA | obfuscate             | 0.4.2                | minecraft.jar                                         | None                                     |
+       | LCHIJA | tickcentral           | 3.2                  | TickCentral-3.2.jar                                   | None                                     |
+       | LCHIJA | mcwwindows            | 1.0                  | [Macaw的窗户]mcw-windows-1.0.0-mc1.12.2.jar              | None                                     |
+       | LCHIJA | variedcommodities     | 1.12.2               | [NPC物品]VariedCommodities_1.12.2-(13Jan22).jar         | None                                     |
+       | LCHIJA | waystones             | 4.1.0                | [传送石碑]Waystones_1.12.2-4.1.0.jar                      | None                                     |
+       | LCHIJA | cucumber              | 1.1.3                | Cucumber-1.12.2-1.1.3.jar                             | None                                     |
+       | LCHIJA | extendedcrafting      | 1.5.6                | [合成拓展]ExtendedCrafting-1.12.2-1.5.6.jar               | None                                     |
+       | LCHIJA | crafttweaker          | 4.1.20               | CraftTweaker2-1.12-4.1.20.670.jar                     | None                                     |
+       | LCHIJA | cfm                   | 6.3.1                | [家具]furniture-6.3.1-1.12.2.jar                        | None                                     |
+       | LCHIJA | cttinycoal            | 1.12.2-1.0.2         | [小型煤炭]cttinycoal-1.12.2-1.0.2.jar                     | None                                     |
+       | LCHIJA | ic2                   | 2.8.221-ex112        | [工业时代2]industrialcraft-2-2.8.221-ex112.jar            | de041f9f6187debbc77034a344134053277aa3b0 |
+       | LCHIJA | baubles               | 1.5.2                | [饰品栏]Baubles-1.12-1.5.2-1.12.2.jar                    | None                                     |
+       | LCHIJA | mtlib                 | 3.0.7                | MTLib-3.0.7.jar                                       | None                                     |
+       | LCHIJA | modtweaker            | 4.0.19               | modtweaker-4.0.20.5.jar                               | None                                     |
+       | LCHIJA | jei                   | 4.16.1.302           | jei_1.12.2-4.16.1.302.jar                             | None                                     |
+       | LCHIJA | toolbelt              | 1.6.4                | [工具腰带]ToolBelt-1.12.0-1.6.4.jar                       | None                                     |
+       | LCHIJA | athenaeum             | 1.12.2-1.19.5        | athenaeum-1.12.2-1.19.5.jar                           | None                                     |
+       | LCHIJA | artisanworktables     | 1.12.2-1.24.2        | [工匠工作台]artisanworktables-1.12.2-1.24.2.jar            | None                                     |
+       | LCHIJA | buildcraftlib         | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcraftcore        | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcraftbuilders    | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcrafttransport   | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcraftsilicon     | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | theoneprobe           | 1.4.28               | theoneprobe-1.12-1.4.28.jar                           | None                                     |
+       | LCHIJA | buildcraftcompat      | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcraftenergy      | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcraftfactory     | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | buildcraftrobotics    | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+       | LCHIJA | elevatorid            | 1.3.14               | [开放式电梯]ElevatorMod-1.12.2-1.3.14.jar                  | None                                     |
+       | LCHIJA | cookingforblockheads  | 6.4.71               | [懒人厨房]CookingForBlockheads_1.12.2-6.4.71.jar          | None                                     |
+       | LCHIJA | travelersbackpack     | 1.0.35               | [旅行者背包]TravelersBackpack-1.12.2-1.0.35.jar            | None                                     |
+       | LCHIJA | biomesoplenty         | 7.0.1.2444           | [更多生物群系]BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar | None                                     |
+       | LCHIJA | mets                  | 1.662                | [更多电力装置]MoreElectricTools.v1.662.jar                  | None                                     |
+       | LCHIJA | ironchest             | 1.12.2-7.0.67.844    | [更多箱子]ironchest-1.12.2-7.0.72.847.jar                 | None                                     |
+       | LCHIJA | cgm                   | 0.15.3               | [枪械]guns-0.15.3-1.12.2.jar                            | None                                     |
+       | LCHIJA | paraglider            | 1.0.1.4              | [滑翔伞]Paraglider-1.12.2-1.0.1.4.jar                    | None                                     |
+       | LCHIJA | harvestcraft          | 1.12.2zb             | [潘马斯农场]Pam's HarvestCraft 1.12.2zg.jar                | None                                     |
+       | LCHIJA | glassdoors            | 1.0.0                | [玻璃门]glassdoors-1.12.2-1.0.0.jar                      | None                                     |
+       | LCHIJA | refinedstorage        | 1.6.16               | [精致存储]refinedstorage-1.6.16.jar                       | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+       | LCHIJA | advanced_solar_panels | 4.3.0                | [高级太阳能]Advanced Solar Panels-4.3.0.jar                | None                                     |
+       | LCHIJA | comboarmors           | 1.12.2-0.0.6         | [组合装甲]ComboArmors-1.12.2-0.0.6.jar                    | None                                     |
+       | LCHIJA | super_solar_panels    | 1.0.0                | [超级太阳能]SuperSolarPanels-1.2.1.jar                     | None                                     |
+       | LCHIJA | gravisuite            | 3.1.1                | [重力装甲]Gravitation Suite-3.1.1.jar                     | None                                     |
+       | LCHIJA | corerm                | 1.3.3                | RikMuldsCore_1.3.3.jar                                | None                                     |
+       | LCHIJA | camping               | 2.4.3                | [野营]TheCampingMod_2.4.3.jar                           | None                                     |
+       | LCHIJA | hammerandvil          | b0.8.1               | [锻造锤]hammerandvil-b0.8.1-1.12.2.jar                   | None                                     |
+       | LCHIJA | frogcraftrebirth      | 2.2.3                | [青蛙化工]FrogCraft-Rebirth-2.2.3.jar                     | None                                     |
+       | LCHIJA | atlantis              | 1.12.2-2.3.11        | atlantis-2.3.11.jar                                   | None                                     |
+       | LCHIJA | base                  | 3.14.0               | base-1.12.2-3.14.0.jar                                | None                                     |
+       | LCHIJA | redstoneflux          | 2.1.1                | RedstoneFlux-1.12-2.1.1.1-universal.jar               | None                                     |
+       | LCHIJA | cofhcore              | 4.6.6                | CoFHCore-1.12.2-4.6.6.1-universal.jar                 | None                                     |
+       | LCHIJA | contenttweaker        | 1.12.2-4.10.0        | ContentTweaker-1.12.2-4.10.0.jar                      | None                                     |
+       | LCHIJA | ctgui                 | 1.0.0                | CraftTweaker2-1.12-4.1.20.670.jar                     | None                                     |
+       | LCHIJA | crafttweakerjei       | 2.0.3                | CraftTweaker2-1.12-4.1.20.670.jar                     | None                                     |
+       | LCHIJA | dropt                 | 1.12.2-1.19.1        | dropt-1.12.2-1.19.1.jar                               | None                                     |
+       | LCHIJA | konkrete              | 1.3.0                | konkrete_1.3.0_MC_1.12-1.12.2.jar                     | None                                     |
+       | LCHIJA | fancymenu             | 2.3.6                | fancymenu_2.3.6_MC_1.12-1.12.2.jar                    | None                                     |
+       | LCHIJA | forgeendertech        | 1.12.2-4.5.6.0       | ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar          | None                                     |
+       | LCHIJA | geckolib3             | 3.0.20               | geckolib-forge-1.12.2-3.0.22.jar                      | None                                     |
+       | LCHIJA | gravisuitepatch       | 1.0.0                | GraviSuite-Patcher-1.0.0.jar                          | None                                     |
+       | LCHIJA | placebo               | 1.6.0                | Placebo-1.12.2-1.6.0.jar                              | None                                     |
+       | LCHIJA | hexxitgear            | 2.8.0                | Hexxit+Gear-1.12.2-2.8.0.jar                          | None                                     |
+       | LCHIJA | i18nmod               | 1.12.2-1.1.0         | i18nupdatemod-1.12.2-1.1.0.jar                        | None                                     |
+       | LCHIJA | inventorytweaks       | 1.64+dev.151.822d839 | InventoryTweaks-1.64+dev.151.jar                      | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+       | LCHIJA | inworldcrafting       | 1.12.2-1.2.0         | inworldcrafting-1.12.2-1.2.0-universal.jar            | None                                     |
+       | LCHIJA | laggoggles            | 1.12.2-5.8-132       | LagGoggles-1.12.2-5.8-132.jar                         | None                                     |
+       | LCHIJA | lootoverhaul          | 1.2                  | LootOverhaul-1.2.jar                                  | None                                     |
+       | LCHIJA | modularmachinery      | 1.11.1               | modularmachinery-1.12.2-1.11.1.jar                    | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+       | LCHIJA | modularcontroller     | 1.4.2                | ModularController-1.4.2.jar                           | None                                     |
+       | LCHIJA | moretweaker           | 1.0.19               | MoreTweaker-1.0.19.jar                                | None                                     |
+       | LCHIJA | multiblocked          | 0.5.3                | multiblocked-0.5.3.jar                                | None                                     |
+       | LCHIJA | oreveins              | 2.0.13               | oreveins-2.0.13.jar                                   | 3c2d6be715971d1ed58a028cdb3fae72987fc934 |
+       | LCHIJA | requious              | 1.0                  | Requious Frakto-0.12.jar                              | None                                     |
+       | LCHIJA | resourceloader        | 1.5.3                | ResourceLoader-MC1.12.1-1.5.3.jar                     | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+       | LCHIJA | rfeuconvert           | 1.0                  | rfeuconvert-1.12.2-0.0.2-2.jar                        | None                                     |
+       | LCHIJA | rslargepatterns       | 1.12.2-1.0.0.0       | RSLargePatterns-1.12.2-1.0.0.1.jar                    | None                                     |
+       | LCHIJA | screenshotclipboard   | 1.12.2-1.0.1         | ScreenshotToClipboard-1.12.2-1.0.1.jar                | None                                     |
+       | LCHIJA | vanillafix            | 1.0.10-150           | VanillaFix-1.0.10-150.jar                             | None                                     |
+       | LCHIJA | supertools            | 1.12.2-null          | [原版工具+]VanillaPlusTools-1.2.jar                       | None                                     |
+       | LCHIJA | primal_tech           | 0.3.5                | [原始科技]PrimalTech-0.3.5.jar                            | None                                     |
+  Loaded coremods (and transformers): MixinBooter (!mixinbooter-4.2.jar)
+                                        
+                                      Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.151.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      MultiblockedLoadingPlugin (multiblocked-0.5.3.jar)
+                                        com.cleanroommc.multiblocked.core.ASMTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      CorePlugin (ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar)
+                                        
+                                      ParagliderLoadingPlugin ([滑翔伞]Paraglider-1.12.2-1.0.1.4.jar)
+                                        com.tictim.paraglider.asm.TransformerModelBiped
+                                      LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+                                        lumien.resourceloader.asm.ClassTransformer
+                                      PatcherPlugin (GraviSuite-Patcher-1.0.0.jar)
+                                        mods.su5ed.gravisuitepatch.asm.ClassTransformer
+                                      ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+                                        com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+                                      TickCentral (TickCentral-3.2.jar)
+                                        com.github.terminatornl.laggoggles.tickcentral.EventBusTransformer
+                                        com.github.terminatornl.laggoggles.tickcentral.RenderManagerTransformer
+                                        com.github.terminatornl.tickcentral.asm.BlockTransformer
+                                        com.github.terminatornl.tickcentral.asm.ITickableTransformer
+                                        com.github.terminatornl.tickcentral.asm.EntityTransformer
+                                        com.github.terminatornl.tickcentral.asm.HubAPITransformer
+                                      KonkreteCore (konkrete_1.3.0_MC_1.12-1.12.2.jar)
+                                        
+                                      FMCore (fancymenu_2.3.6_MC_1.12-1.12.2.jar)
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 457.09' Renderer: 'GeForce GTX 1060 3GB/PCIe/SSE2'
+  Suspected Mods: Multiblock'd (multiblocked), Just Enough Items (jei)
+  Launched Version: MineLife2
+  LWJGL: 2.9.4
+  OpenGL: GeForce GTX 1060 3GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 457.09, NVIDIA Corporation
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: Minecraft-Mod-Language-Modpack.zip, 新版材质包.zip, ModernityExtra-format3-v1.2.8.2.zip, BDcraft Sounds MC112.zip
+  Current Language: 简体中文 (中国)
+  Profiler Position: N/A (disabled)
+  CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+  Client Crashes Since Restart: 2
+  Integrated Server Crashes Since Restart: 0

@@ -1,0 +1,32 @@
+{  
+    "forge_marker": 1,
+    "defaults": {
+      "model": "icn:drying_rack",
+      "textures": {
+        "up": "icn:blocks/black_brick_block",
+        "down": "icn:blocks/black_brick_block",
+        "north": "icn:blocks/mpf",
+        "east": "icn:blocks/black_brick_block",
+        "south": "icn:blocks/black_brick_block",
+        "west": "icn:blocks/black_brick_block",
+        "particle": "icn:blocks/black_brick_block"
+      },
+      "transform": "forge:default-block"
+    },
+    "variants":{
+      "normal":[{}],
+      "inventory":[{}],
+      "facing": {
+          "down":  { "x": 180 },
+          "up":    { },
+          "north": { "x": 90 },
+          "south": { "x": 90, "y": 180 },
+          "west":  { "x": 90, "y": 270 },
+          "east":  { "x": 90, "y": 90 }
+      },
+      "active": {
+        "true": {},
+        "false": {}
+      }
+    }
+  }

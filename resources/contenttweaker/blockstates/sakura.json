@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "contenttweaker:blocks/sakura-sp",
+      "down": "contenttweaker:blocks/sakura-sp",
+      "north": "contenttweaker:blocks/sakura-side",
+      "east": "contenttweaker:blocks/sakura-side",
+      "south": "contenttweaker:blocks/sakura-side",
+      "west": "contenttweaker:blocks/sakura-side",
+      "particle": "contenttweaker:blocks/sakura-side"
+    },
+    "model": "contenttweaker:tree",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

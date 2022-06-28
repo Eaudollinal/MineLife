@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "contenttweaker:graphite_ore",
+        "filler": "minecraft:stone",
+        "minY": 45,
+        "maxY": 90,
+        "maxVeinSize": 10,
+        "spawnRate": 20.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

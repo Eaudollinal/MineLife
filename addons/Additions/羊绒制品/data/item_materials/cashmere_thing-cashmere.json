@@ -1,0 +1,13 @@
+{
+  "enchantability": 22,
+  "base_armor_durability": 8,
+  "toughness": 2.0,
+  "helmet_armor": 2,
+  "chestplate_armor": 2,
+  "leggings_armor": 2,
+  "boots_armor": 2,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:cashmere",
+  "repair_meta": 32767,
+  "type": "armor"
+}

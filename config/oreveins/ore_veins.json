@@ -1,0 +1,170 @@
+{
+  "coal": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreCoal",
+        "weight": 20
+      }
+    ],
+    "rarity": 10,
+    "min_y": 2,
+    "max_y": 110,
+    "density": 600,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+
+  "iron": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreIron",
+        "weight": 20
+      }
+    ],
+    "rarity": 10,
+    "min_y": 2,
+    "max_y": 96,
+    "density": 300,
+    "vertical_size": 2,
+    "horizontal_size": 2
+  },
+
+  "gold": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreGold",
+          "weight": 20
+        }
+      ],
+      "rarity": 15,
+      "min_y": 2,
+      "max_y": 50,
+      "density": 280,
+      "vertical_size": 2,
+      "horizontal_size": 2
+  },
+
+  "emerald": {
+      "type": "sphere",
+      "stone": "minecraft:stone",
+      "ore": [
+        {
+          "ore": "oreEmerald",
+          "weight": 20
+        }
+      ],
+      "rarity": 60,
+      "min_y": 2,
+      "max_y": 20,
+      "density": 70,
+      "vertical_size": 1,
+      "horizontal_size": 1
+  },
+
+  "phosphorus": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "orephosphorus",
+        "weight": 20
+      }
+    ],
+    "rarity": 16,
+    "min_y": 2,
+    "max_y": 70,
+    "density": 260,
+    "vertical_size": 2,
+    "horizontal_size": 2
+  },
+
+  "uranium": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreuranium",
+        "weight": 20
+      }
+    ],
+    "rarity": 24,
+    "min_y": 2,
+    "max_y": 70,
+    "density": 220,
+    "vertical_size": 2,
+    "horizontal_size": 2
+  },
+
+  "redstone": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreRedstone",
+        "weight": 20
+      }
+    ],
+    "rarity": 12,
+    "min_y": 2,
+    "max_y": 50,
+    "density": 270,
+    "vertical_size": 2,
+    "horizontal_size": 2
+  },
+
+  "diamond": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreDiamond",
+        "weight": 20
+      }
+    ],
+    "rarity": 20,
+    "min_y": 2,
+    "max_y": 20,
+    "density": 120,
+    "vertical_size": 2,
+    "horizontal_size": 2
+  },
+  "Graphite": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreGraphite",
+        "weight": 20
+      }
+    ],
+    "rarity": 10,
+    "min_y": 2,
+    "max_y": 110,
+    "density": 600,
+    "vertical_size": 3,
+    "horizontal_size": 3
+  },
+  "Oil": {
+    "type": "sphere",
+    "stone": "minecraft:stone",
+    "ore": [
+      {
+        "ore": "oreOil",
+        "weight": 20
+      }
+    ],
+    "rarity": 5,
+    "min_y": 2,
+    "max_y": 110,
+    "density": 600,
+    "biomes":"SANDY",
+    "vertical_size": 2,
+    "horizontal_size": 3
+  }
+}

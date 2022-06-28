@@ -1,0 +1,150 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = screenshots/2022-05-07_12.33.33.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-left
+  x = 125
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=400322%
+  width = 61
+  action = resizebutton
+  height = 67
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nockm.png
+  backgroundnormal = resources\nock.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 72
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=400382%
+  width = 65
+  action = resizebutton
+  height = 42
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nockm.png
+  backgroundnormal = resources\nock.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=502382%
+  width = 86
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nockm.png
+  backgroundnormal = resources\nock.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=400298%
+  width = 73
+  action = resizebutton
+  height = 54
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nockm.png
+  backgroundnormal = resources\nock.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -53
+}
+
+customization {
+  identifier = %id=400346%
+  width = 82
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nockm.png
+  backgroundnormal = resources\nock.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+

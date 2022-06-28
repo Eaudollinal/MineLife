@@ -1,0 +1,264 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.151.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  PatcherFMLPlugin (ic2patcher-2.0.3.jar)
+  MultiblockedLoadingPlugin (multiblocked-0.5.4.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  TickCentral (TickCentral-3.2.jar)
+  MixinBooter (!mixinbooter-4.2.jar)
+  CorePlugin (ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar)
+  ParagliderLoadingPlugin ([滑翔伞]Paraglider-1.12.2-1.0.1.4.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  PatcherPlugin (GraviSuite-Patcher-1.0.0.jar)
+  KonkreteCore (konkrete_1.3.0_MC_1.12-1.12.2.jar)
+  FMCore (fancymenu_2.3.6_MC_1.12-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// You should try our sister game, Minceraft!
+
+Time: 5/17/22 1:00 PM
+Description: Updating screen events
+
+java.lang.IllegalArgumentException: Invalid dimension id 19
+	at net.minecraft.world.DimensionType.func_186069_a(DimensionType.java:77)
+	at net.minecraftforge.common.DimensionManager.registerDimension(DimensionManager.java:131)
+	at com.pg85.otg.forge.dimensions.OTGDimensionManager.registerDimension(OTGDimensionManager.java:82)
+	at com.pg85.otg.forge.dimensions.OTGDimensionManager.createDimension(OTGDimensionManager.java:217)
+	at com.pg85.otg.forge.dimensions.OTGDimensionManager.createNewDimensionSP(OTGDimensionManager.java:696)
+	at com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList.func_146284_a(OTGGuiDimensionList.java:528)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:443)
+	at com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList.func_73864_a(OTGGuiDimensionList.java:803)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533)
+	at com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList.func_146274_d(OTGGuiDimensionList.java:776)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1759)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.world.DimensionType.func_186069_a(DimensionType.java:77)
+	at net.minecraftforge.common.DimensionManager.registerDimension(DimensionManager.java:131)
+	at com.pg85.otg.forge.dimensions.OTGDimensionManager.registerDimension(OTGDimensionManager.java:82)
+	at com.pg85.otg.forge.dimensions.OTGDimensionManager.createDimension(OTGDimensionManager.java:217)
+	at com.pg85.otg.forge.dimensions.OTGDimensionManager.createNewDimensionSP(OTGDimensionManager.java:696)
+	at com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList.func_146284_a(OTGGuiDimensionList.java:528)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:443)
+	at com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList.func_73864_a(OTGGuiDimensionList.java:803)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533)
+	at com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList.func_146274_d(OTGGuiDimensionList.java:776)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+
+-- Affected screen --
+Details:
+	Screen name: com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Eaudoll'/137, l='MpServer', x=1713.95, y=4.00, z=1863.11]]
+	Chunk stats: MultiplayerChunkCache: 1089, 1089
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (1581,4,1594), Chunk: (at 13,0,10 in 98,99; contains blocks 1568,0,1584 to 1583,255,1599), Region: (3,3; contains chunks 96,96 to 127,127, blocks 1536,0,1536 to 2047,255,2047)
+	Level time: 1019455 game time, 1193832 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 59 total; [EntityItem['item.item.minecraft:wheat'/5504, l='MpServer', x=1710.86, y=4.94, z=1894.44], EntityGaiaPropVase['古老的花瓶'/6144, l='MpServer', x=1675.50, y=4.00, z=1852.50], EntityCreeper['苦力怕'/6145, l='MpServer', x=1680.50, y=4.00, z=1804.50], EntityItem['item.item.seeds'/5508, l='MpServer', x=1712.41, y=5.00, z=1894.02], EntityZombie['僵尸'/6148, l='MpServer', x=1675.50, y=4.00, z=1804.50], EntityZombie['僵尸'/6022, l='MpServer', x=1647.69, y=4.00, z=1850.67], EntityVillager['村民'/144, l='MpServer', x=1695.42, y=5.00, z=1841.67], EntityVillager['村民'/147, l='MpServer', x=1697.38, y=5.00, z=1841.30], EntityVillager['村民'/148, l='MpServer', x=1696.14, y=5.00, z=1841.30], EntityPlayerSP['Eaudoll'/137, l='MpServer', x=1713.95, y=4.00, z=1863.11], EntitySkeleton['骷髅'/5793, l='MpServer', x=1717.23, y=4.00, z=1835.68], EntityGaiaArachne['蛛后'/5794, l='MpServer', x=1684.03, y=4.00, z=1822.04], EntityCreeper['苦力怕'/6050, l='MpServer', x=1766.50, y=4.00, z=1785.50], EntitySpider['蜘蛛'/5922, l='MpServer', x=1683.96, y=4.00, z=1933.00], EntityCreeper['苦力怕'/6052, l='MpServer', x=1770.50, y=4.00, z=1869.50], EntityGaiaArachne['蛛后'/5541, l='MpServer', x=1748.01, y=4.00, z=1875.26], EntityGaiaPropVase['古老的花瓶'/5675, l='MpServer', x=1706.50, y=4.00, z=1862.50], EntityCreeper['苦力怕'/6059, l='MpServer', x=1638.50, y=4.00, z=1899.50], EntityCreeper['苦力怕'/5812, l='MpServer', x=1680.79, y=4.00, z=1842.56], EntityCreeper['苦力怕'/5813, l='MpServer', x=1686.53, y=4.00, z=1845.81], EntitySpider['蜘蛛'/6070, l='MpServer', x=1773.50, y=4.00, z=1814.50], EntityCreeper['苦力怕'/6071, l='MpServer', x=1774.50, y=4.00, z=1838.50], EntityGaiaCreep['爬行者球'/5821, l='MpServer', x=1650.50, y=4.00, z=1809.50], EntitySpider['蜘蛛'/6087, l='MpServer', x=1771.50, y=4.00, z=1813.50], EntitySkeleton['骷髅'/6088, l='MpServer', x=1771.50, y=4.00, z=1814.50], EntityGaiaCreep['爬行者球'/6096, l='MpServer', x=1720.50, y=4.00, z=1916.50], EntityCreeper['苦力怕'/5969, l='MpServer', x=1695.23, y=4.00, z=1938.51], EntityGaiaCreep['爬行者球'/6097, l='MpServer', x=1718.50, y=4.00, z=1919.50], EntityGaiaArachne['蛛后'/5715, l='MpServer', x=1695.04, y=4.00, z=1836.97], EntityCreeper['苦力怕'/5843, l='MpServer', x=1759.50, y=4.00, z=1794.50], EntityVillager['村民'/212, l='MpServer', x=1652.65, y=5.00, z=1906.30], EntityVillager['村民'/213, l='MpServer', x=1652.43, y=5.00, z=1907.04], EntityVillager['村民'/215, l='MpServer', x=1675.70, y=5.00, z=1883.70], EntitySpider['蜘蛛'/5978, l='MpServer', x=1736.32, y=4.00, z=1858.32], EntityVillager['村民'/219, l='MpServer', x=1680.24, y=5.00, z=1872.49], EntityVillager['村民'/220, l='MpServer', x=1681.30, y=5.00, z=1879.54], EntityVillager['村民'/221, l='MpServer', x=1682.49, y=9.00, z=1887.43], EntityGaiaFleshLich['僵尸巫妖'/5981, l='MpServer', x=1665.38, y=4.00, z=1836.46], EntityZombie['僵尸'/5982, l='MpServer', x=1720.81, y=5.00, z=1877.70], EntityVillager['村民'/224, l='MpServer', x=1706.49, y=5.00, z=1880.93], EntityZombie['僵尸'/5728, l='MpServer', x=1677.30, y=5.00, z=1892.50], EntityGaiaDeathword['死亡魔书'/6112, l='MpServer', x=1735.44, y=4.00, z=1821.68], EntityVillager['村民'/225, l='MpServer', x=1675.43, y=5.00, z=1897.70], EntityGaiaPropChestMimic['宝箱怪'/6114, l='MpServer', x=1744.50, y=4.00, z=1921.50], EntityGaiaPropChestMimic['宝箱怪'/6117, l='MpServer', x=1685.50, y=4.00, z=1849.50], EntityGaiaCreep['爬行者球'/6118, l='MpServer', x=1734.47, y=4.00, z=1804.58], EntityVillager['村民'/231, l='MpServer', x=1724.59, y=5.00, z=1881.43], EntityZombie['僵尸'/6120, l='MpServer', x=1678.50, y=4.00, z=1805.50], EntitySlime['史莱姆'/5741, l='MpServer', x=1648.18, y=5.17, z=1849.21], EntitySpider['蜘蛛'/6126, l='MpServer', x=1687.50, y=5.00, z=1915.50], EntityGaiaPropVase['古老的花瓶'/6002, l='MpServer', x=1738.50, y=4.00, z=1845.50], EntityCreeper['苦力怕'/6134, l='MpServer', x=1700.50, y=4.00, z=1805.50], EntitySkeleton['骷髅'/5880, l='MpServer', x=1678.70, y=4.00, z=1858.47], EntityZombie['僵尸'/6008, l='MpServer', x=1740.56, y=4.00, z=1828.26], EntitySkeleton['骷髅'/5881, l='MpServer', x=1675.54, y=4.00, z=1871.25], EntityCreeper['苦力怕'/5882, l='MpServer', x=1648.50, y=4.00, z=1827.50], EntityGaiaBoneKnight['骷髅骑士'/6010, l='MpServer', x=1753.50, y=4.00, z=1862.50], EntityZombie['僵尸'/5884, l='MpServer', x=1720.18, y=5.00, z=1877.70], EntitySkeleton['骷髅'/6143, l='MpServer', x=1670.50, y=4.00, z=1854.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:419)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 13759766032 bytes (13122 MB) / 15485370368 bytes (14768 MB) up to 17146314752 bytes (16352 MB)
+	JVM Flags: 12 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Xmn128m -Xmx16341m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 89 mods loaded, 89 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                    | Version              | Source                                                | Signature                                |
+	|:------ |:--------------------- |:-------------------- |:----------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft             | 1.12.2               | minecraft.jar                                         | None                                     |
+	| LCHIJA | mcp                   | 9.42                 | minecraft.jar                                         | None                                     |
+	| LCHIJA | ic2patcher-core       | 1.0                  | minecraft.jar                                         | None                                     |
+	| LCHIJA | FML                   | 8.0.99.99            | forge-1.12.2-14.23.5.2860.jar                         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                 | 14.23.5.2860         | forge-1.12.2-14.23.5.2860.jar                         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | gravisuitepatchcore   | 1.0                  | minecraft.jar                                         | None                                     |
+	| LCHIJA | otgcore               | 1.12.2-v9.3          | minecraft.jar                                         | None                                     |
+	| LCHIJA | mixinbooter           | 4.2                  | minecraft.jar                                         | None                                     |
+	| LCHIJA | obfuscate             | 0.4.2                | minecraft.jar                                         | None                                     |
+	| LCHIJA | tickcentral           | 3.2                  | TickCentral-3.2.jar                                   | None                                     |
+	| LCHIJA | mcwwindows            | 1.0                  | [Macaw的窗户]mcw-windows-1.0.0-mc1.12.2.jar              | None                                     |
+	| LCHIJA | variedcommodities     | 1.12.2               | [NPC物品]VariedCommodities_1.12.2-(13Jan22).jar         | None                                     |
+	| LCHIJA | waystones             | 4.1.0                | [传送石碑]Waystones_1.12.2-4.1.0.jar                      | None                                     |
+	| LCHIJA | cucumber              | 1.1.3                | Cucumber-1.12.2-1.1.3.jar                             | None                                     |
+	| LCHIJA | extendedcrafting      | 1.5.6                | [合成拓展]ExtendedCrafting-1.12.2-1.5.6.jar               | None                                     |
+	| LCHIJA | crafttweaker          | 4.1.20               | CraftTweaker2-1.12-4.1.20.670.jar                     | None                                     |
+	| LCHIJA | cfm                   | 6.3.1                | [家具]furniture-6.3.1-1.12.2.jar                        | None                                     |
+	| LCHIJA | cttinycoal            | 1.12.2-1.0.2         | [小型煤炭]cttinycoal-1.12.2-1.0.2.jar                     | None                                     |
+	| LCHIJA | ic2                   | 2.8.221-ex112        | [工业时代2]industrialcraft-2-2.8.221-ex112.jar            | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCHIJA | baubles               | 1.5.2                | [饰品栏]Baubles-1.12-1.5.2-1.12.2.jar                    | None                                     |
+	| LCHIJA | mtlib                 | 3.0.7                | MTLib-3.0.7.jar                                       | None                                     |
+	| LCHIJA | modtweaker            | 4.0.19               | modtweaker-4.0.20.5.jar                               | None                                     |
+	| LCHIJA | jei                   | 4.16.1.302           | jei_1.12.2-4.16.1.302.jar                             | None                                     |
+	| LCHIJA | toolbelt              | 1.6.4                | [工具腰带]ToolBelt-1.12.0-1.6.4.jar                       | None                                     |
+	| LCHIJA | athenaeum             | 1.12.2-1.19.5        | athenaeum-1.12.2-1.19.5.jar                           | None                                     |
+	| LCHIJA | artisanworktables     | 1.12.2-1.24.2        | [工匠工作台]artisanworktables-1.12.2-1.24.2.jar            | None                                     |
+	| LCHIJA | buildcraftlib         | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcraftcore        | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcraftbuilders    | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcrafttransport   | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcraftsilicon     | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | theoneprobe           | 1.4.28               | theoneprobe-1.12-1.4.28.jar                           | None                                     |
+	| LCHIJA | buildcraftcompat      | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcraftenergy      | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcraftfactory     | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | buildcraftrobotics    | 7.99.24.8            | [建筑]buildcraft-all-7.99.24.8.jar                      | None                                     |
+	| LCHIJA | elevatorid            | 1.3.14               | [开放式电梯]ElevatorMod-1.12.2-1.3.14.jar                  | None                                     |
+	| LCHIJA | cookingforblockheads  | 6.4.71               | [懒人厨房]CookingForBlockheads_1.12.2-6.4.71.jar          | None                                     |
+	| LCHIJA | travelersbackpack     | 1.0.35               | [旅行者背包]TravelersBackpack-1.12.2-1.0.35.jar            | None                                     |
+	| LCHIJA | biomesoplenty         | 7.0.1.2445           | [更多生物群系]BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar | None                                     |
+	| LCHIJA | mets                  | 1.662                | [更多电力装置]MoreElectricTools.v1.662.jar                  | None                                     |
+	| LCHIJA | ironchest             | 1.12.2-7.0.67.844    | [更多箱子]ironchest-1.12.2-7.0.72.847.jar                 | None                                     |
+	| LCHIJA | cgm                   | 0.15.3               | [枪械]guns-0.15.3-1.12.2.jar                            | None                                     |
+	| LCHIJA | paraglider            | 1.0.1.4              | [滑翔伞]Paraglider-1.12.2-1.0.1.4.jar                    | None                                     |
+	| LCHIJA | harvestcraft          | 1.12.2zb             | [潘马斯农场]Pam's HarvestCraft 1.12.2zg.jar                | None                                     |
+	| LCHIJA | glassdoors            | 1.0.0                | [玻璃门]glassdoors-1.12.2-1.0.0.jar                      | None                                     |
+	| LCHIJA | grimoireofgaia        | 1.7.2                | [盖亚魔典]GrimoireOfGaia3-1.12.2-1.7.2.jar                | None                                     |
+	| LCHIJA | refinedstorage        | 1.6.16               | [精致存储]refinedstorage-1.6.16.jar                       | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+	| LCHIJA | advanced_solar_panels | 4.3.0                | [高级太阳能]Advanced Solar Panels-4.3.0.jar                | None                                     |
+	| LCHIJA | comboarmors           | 1.12.2-0.0.6         | [组合装甲]ComboArmors-1.12.2-0.0.6.jar                    | None                                     |
+	| LCHIJA | super_solar_panels    | 1.0.0                | [超级太阳能]SuperSolarPanels-1.2.1.jar                     | None                                     |
+	| LCHIJA | gravisuite            | 3.1.1                | [重力装甲]Gravitation Suite-3.1.1.jar                     | None                                     |
+	| LCHIJA | corerm                | 1.3.3                | RikMuldsCore_1.3.3.jar                                | None                                     |
+	| LCHIJA | camping               | 2.4.3                | [野营]TheCampingMod_2.4.3.jar                           | None                                     |
+	| LCHIJA | hammerandvil          | b0.8.1               | [锻造锤]hammerandvil-b0.8.1-1.12.2.jar                   | None                                     |
+	| LCHIJA | frogcraftrebirth      | 2.2.3                | [青蛙化工]FrogCraft-Rebirth-2.2.3.jar                     | None                                     |
+	| LCHIJA | atlantis              | 1.12.2-2.3.11        | atlantis-2.3.11.jar                                   | None                                     |
+	| LCHIJA | base                  | 3.14.0               | base-1.12.2-3.14.0.jar                                | None                                     |
+	| LCHIJA | redstoneflux          | 2.1.1                | RedstoneFlux-1.12-2.1.1.1-universal.jar               | None                                     |
+	| LCHIJA | cofhcore              | 4.6.6                | CoFHCore-1.12.2-4.6.6.1-universal.jar                 | None                                     |
+	| LCHIJA | contenttweaker        | 1.12.2-4.10.0        | ContentTweaker-1.12.2-4.10.0.jar                      | None                                     |
+	| LCHIJA | ctgui                 | 1.0.0                | CraftTweaker2-1.12-4.1.20.670.jar                     | None                                     |
+	| LCHIJA | crafttweakerjei       | 2.0.3                | CraftTweaker2-1.12-4.1.20.670.jar                     | None                                     |
+	| LCHIJA | dropt                 | 1.12.2-1.19.1        | dropt-1.12.2-1.19.1.jar                               | None                                     |
+	| LCHIJA | konkrete              | 1.3.0                | konkrete_1.3.0_MC_1.12-1.12.2.jar                     | None                                     |
+	| LCHIJA | fancymenu             | 2.3.6                | fancymenu_2.3.6_MC_1.12-1.12.2.jar                    | None                                     |
+	| LCHIJA | forgeendertech        | 1.12.2-4.5.6.0       | ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar          | None                                     |
+	| LCHIJA | geckolib3             | 3.0.20               | geckolib-forge-1.12.2-3.0.22.jar                      | None                                     |
+	| LCHIJA | gravisuitepatch       | 1.0.0                | GraviSuite-Patcher-1.0.0.jar                          | None                                     |
+	| LCHIJA | i18nmod               | 1.12.2-1.1.0         | i18nupdatemod-1.12.2-1.1.0.jar                        | None                                     |
+	| LCHIJA | ic2patcher            | 2.0.3                | ic2patcher-2.0.3.jar                                  | None                                     |
+	| LCHIJA | inventorytweaks       | 1.64+dev.151.822d839 | InventoryTweaks-1.64+dev.151.jar                      | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCHIJA | inworldcrafting       | 1.12.2-1.2.0         | inworldcrafting-1.12.2-1.2.0-universal.jar            | None                                     |
+	| LCHIJA | jehc                  | 1.7.2                | just-enough-harvestcraft-1.12.2-1.7.2.jar             | None                                     |
+	| LCHIJA | laggoggles            | 1.12.2-5.8-132       | LagGoggles-1.12.2-5.8-132.jar                         | None                                     |
+	| LCHIJA | lootoverhaul          | 1.2                  | LootOverhaul-1.2.jar                                  | None                                     |
+	| LCHIJA | modularmachinery      | 1.11.1               | modularmachinery-1.12.2-1.11.1.jar                    | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCHIJA | modularcontroller     | 1.4.2                | ModularController-1.4.2.jar                           | None                                     |
+	| LCHIJA | moretweaker           | 1.0.19               | MoreTweaker-1.0.19.jar                                | None                                     |
+	| LCHIJA | multiblocked          | 0.5.4                | multiblocked-0.5.4.jar                                | None                                     |
+	| LCHIJA | openterraingenerator  | v9.3                 | OpenTerrainGenerator-1.12.2-v9.3.jar                  | None                                     |
+	| LCHIJA | oreveins              | 2.0.13               | oreveins-2.0.13.jar                                   | 3c2d6be715971d1ed58a028cdb3fae72987fc934 |
+	| LCHIJA | placebo               | 1.6.0                | Placebo-1.12.2-1.6.0.jar                              | None                                     |
+	| LCHIJA | requious              | 1.0                  | Requious Frakto-0.12.jar                              | None                                     |
+	| LCHIJA | resourceloader        | 1.5.3                | ResourceLoader-MC1.12.1-1.5.3.jar                     | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | rfeuconvert           | 1.0                  | rfeuconvert-1.12.2-0.0.2-2.jar                        | None                                     |
+	| LCHIJA | rslargepatterns       | 1.12.2-1.0.0.0       | RSLargePatterns-1.12.2-1.0.0.1.jar                    | None                                     |
+	| LCHIJA | ruins                 | 17.2                 | Ruins-1.12.2.jar                                      | None                                     |
+	| LCHIJA | screenshotclipboard   | 1.12.2-1.0.1         | ScreenshotToClipboard-1.12.2-1.0.1.jar                | None                                     |
+
+	Loaded coremods (and transformers): 
+Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.151.jar)
+  invtweaks.forge.asm.ContainerTransformer
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.excluded.OTGClassTransformer
+PatcherFMLPlugin (ic2patcher-2.0.3.jar)
+  mods.su5ed.ic2patcher.asm.PatcherClassTransformer
+MultiblockedLoadingPlugin (multiblocked-0.5.4.jar)
+  com.cleanroommc.multiblocked.core.ASMTransformer
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+TickCentral (TickCentral-3.2.jar)
+  com.github.terminatornl.laggoggles.tickcentral.EventBusTransformer
+  com.github.terminatornl.laggoggles.tickcentral.RenderManagerTransformer
+  com.github.terminatornl.tickcentral.asm.BlockTransformer
+  com.github.terminatornl.tickcentral.asm.ITickableTransformer
+  com.github.terminatornl.tickcentral.asm.EntityTransformer
+  com.github.terminatornl.tickcentral.asm.HubAPITransformer
+MixinBooter (!mixinbooter-4.2.jar)
+  
+CorePlugin (ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar)
+  
+ParagliderLoadingPlugin ([滑翔伞]Paraglider-1.12.2-1.0.1.4.jar)
+  com.tictim.paraglider.asm.TransformerModelBiped
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+PatcherPlugin (GraviSuite-Patcher-1.0.0.jar)
+  mods.su5ed.gravisuitepatch.asm.ClassTransformer
+KonkreteCore (konkrete_1.3.0_MC_1.12-1.12.2.jar)
+  
+FMCore (fancymenu_2.3.6_MC_1.12-1.12.2.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 457.09' Renderer: 'GeForce GTX 1060 3GB/PCIe/SSE2'
+	Launched Version: MineLife2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1060 3GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 457.09, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: Minecraft-Mod-Language-Modpack.zip, 新版材质包.zip, ModernityExtra-format3-v1.2.8.2.zip, BDcraft Sounds MC112.zip, Minelife_Resourcepack
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 16
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: BSL_v8.1.02.2.zip
+	OpenGlVersion: 4.6.0 NVIDIA 457.09
+	OpenGlRenderer: GeForce GTX 1060 3GB/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 6

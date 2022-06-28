@@ -1,0 +1,32 @@
+{  
+    "forge_marker": 1,
+    "defaults": {
+      "model": "icn:machine",
+      "textures": {
+        "up": "icn:blocks/advanced_textile_platform_top",
+        "down": "icn:blocks/wool_colored_purple",
+        "north": "icn:blocks/advanced_textile_platform-side",
+        "east": "icn:blocks/advanced_textile_platform-side",
+        "south": "icn:blocks/advanced_textile_platform-side",
+        "west": "icn:blocks/advanced_textile_platform-side",
+        "particle": "icn:blocks/advanced_textile_platform-side"
+      },
+      "transform": "forge:default-block"
+    },
+    "variants":{
+      "normal":[{}],
+      "inventory":[{}],
+      "facing": {
+          "down":  { "x": 180 },
+          "up":    { },
+          "north": { "x": 90 },
+          "south": { "x": 90, "y": 180 },
+          "west":  { "x": 90, "y": 270 },
+          "east":  { "x": 90, "y": 90 }
+      },
+      "active": {
+        "true": {},
+        "false": {}
+      }
+    }
+  }

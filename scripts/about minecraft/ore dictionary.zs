@@ -1,0 +1,13 @@
+<ore:ingot>.addAll(<ore:ingotCopper>,<ore:ingotLead>,<ore:ingotBronze>,<ore:ingotTin>,<ore:ingotGold>);
+<ore:oreGraphite>.add(<contenttweaker:graphite_ore>);
+<ore:copperCable2>.add(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}));
+<ore:coal>.add(<minecraft:coal:1>);
+<ore:high_ironOre>.add(<contenttweaker:hematite>);
+<ore:high_ironOre>.add(<contenttweaker:magnetite>);
+<ore:low_ironOre>.add(<contenttweaker:pyrite>);
+<ore:low_ironOre>.add(<contenttweaker:siderite>);
+<ore:oreIron>.mirror(<ore:low_ironOre>);
+<ore:oreIron>.mirror(<ore:high_ironOre>);
+<ore:flax>.add(<biomesoplenty:double_plant>);
+<ore:flax>.add(<harvestcraft:flaxitem>);
+<ore:flax>.add(<harvestcraft:kenafitem>);

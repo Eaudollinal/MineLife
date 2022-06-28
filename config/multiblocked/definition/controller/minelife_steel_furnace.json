@@ -1,0 +1,106 @@
+{
+  "consumeCatalyst": false,
+  "location": "minelife:steel_furnace",
+  "traits": {
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 76,
+        "y": 72,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "requious:steel_furnace_core",
+      "meta": 1
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "A A",
+        "AAA"
+      ],
+      [
+        "AAA",
+        " @ ",
+        "ABA"
+      ],
+      [
+        "AAA",
+        "A A",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:furnace_brick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "minelife:steel_furnace",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "ironchest:iron_chest",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ]
+    }
+  },
+  "recipeMap": "steel"
+}
