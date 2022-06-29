@@ -73,7 +73,7 @@ key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:33
-key_key.saveToolbarActivator:46
+key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:45
 key_key.advancements:38
 key_key.hotbar.1:2
@@ -89,10 +89,10 @@ key_of.key.zoom:46
 key_ALT Key:56
 key_Boost Key:29
 key_Mode Switch Key:50
-key_Side Inventory Key:46
+key_Side Inventory Key:0
 key_Hub Expand Key:45
 key_Reload Menu | CTRL + ALT + :19
-key_Toggle Customization Overlay | CTRL + ALT + :46
+key_Toggle Customization Overlay | CTRL + ALT + :0
 key_key.fart.desc:34
 key_keybind.baublesinventory:48
 key_key.aim:56
@@ -100,6 +100,24 @@ key_key.reload:19
 key_key.unload:22
 key_Fly Key:33
 key_Gravi Fly Key:33
+key_replaymod.input.playeroverview:48
+key_replaymod.input.lighting:44
+key_replaymod.input.quickmode:16
+key_replaymod.input.settings:0
+key_replaymod.input.marker:50
+key_replaymod.input.thumbnail:49
+key_replaymod.input.playpause:25
+key_replaymod.input.rollclockwise:38
+key_replaymod.input.rollcounterclockwise:36
+key_replaymod.input.resettilt:37
+key_replaymod.input.pathpreview:35
+key_replaymod.input.keyframerepository:45
+key_replaymod.input.clearkeyframes:0
+key_replaymod.input.synctimeline:47
+key_replaymod.input.positionkeyframe:23
+key_replaymod.input.positiononlykeyframe:0
+key_replaymod.input.timekeyframe:24
+key_replaymod.input.bothkeyframes:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0

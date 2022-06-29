@@ -1,9 +1,9 @@
 
-Loading options from: I:\Eaudoll\Minelife\saves\新的世界
+Loading options from: I:\Eaudoll\Minelife\saves\新的世界-
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
 anySpawnMinDistance = 32
 anySpawnMaxDistance = 2147483647
-Ruins mod loaded successfully for world I:\Eaudoll\Minelife\saves\新的世界, template files: 32
+Ruins mod loaded successfully for world I:\Eaudoll\Minelife\saves\新的世界-, template files: 32

@@ -1,23 +1,23 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-NickT
-Phillip Swearingain
-AdaraChristine
-NerdyWhiteGuy
 Ivy_
-Belathus
-Pongo Sapiens
-Ncc1702
-Robijnvogel
+AdaraChristine
 Zuniroa
-Barrier
-WaterMoon
 Peregrinus11
-Spencer Gilbert
-Quaternary
-Genryu
-SquidDev
+Pongo Sapiens
 Br脙赂nsted
+Quaternary
 DreamThorn
+Phillip Swearingain
+WaterMoon
+Genryu
+Ncc1702
+Belathus
+NickT
+Robijnvogel
+Barrier
+SquidDev
+NerdyWhiteGuy
+Spencer Gilbert
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -32,16 +32,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[4:contenttweaker]: reg things\tab\Metal.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[4:contenttweaker]: reg things\tab\textilecraft.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[3:contenttweaker]: reg things\tab\IC_upgrade.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\forgetable.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\furnace.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\ic2.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\loot.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\MineLifeMachine\fuction.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\ore dictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\crafttable.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\furnace.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\machine.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tools_recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: adrecipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: color.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: construction.zs} as we are currently loading with a different loader
@@ -58,6 +52,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: machine\spinning_frame.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: machine\textile_machine.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\Camping.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\IC2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\MineLife.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\RequiousFrakto.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\Travelers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\Furnace\furnace.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\IndustiralCraft2\BlastFurnace.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\Vil\forgetable.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\black_brick_block.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\crash.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\furnace_brick.zs} as we are currently loading with a different loader
@@ -73,7 +75,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\tools\textile_awl.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tooltips.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: translate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 11ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: machine\DryingRack.zs} as we are currently loading with a different loader
@@ -87,16 +89,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[4:contenttweaker]: reg things\tab\Metal.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[4:contenttweaker]: reg things\tab\textilecraft.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3:contenttweaker]: reg things\tab\IC_upgrade.zs}
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\forgetable.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\furnace.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\ic2.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\loot.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\MineLifeMachine\fuction.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\ore dictionary.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\crafttable.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\furnace.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\machine.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tools_recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: adrecipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: color.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: construction.zs} as we are currently loading with a different loader
@@ -113,6 +109,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: machine\spinning_frame.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: machine\textile_machine.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\Camping.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\IC2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\MineLife.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\RequiousFrakto.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\Travelers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\Furnace\furnace.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\IndustiralCraft2\BlastFurnace.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\Vil\forgetable.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: reg things\block\black_brick_block.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: reg things\block\crash.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: reg things\block\furnace_brick.zs}
@@ -128,7 +132,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: reg things\tools\textile_awl.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tooltips.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: translate.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 339ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 403ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -143,9 +147,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[4:contenttweaker]: reg things\tab\Metal.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[4:contenttweaker]: reg things\tab\textilecraft.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[3:contenttweaker]: reg things\tab\IC_upgrade.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\forgetable.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\furnace.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\ic2.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\loot.zs}
 [INITIALIZATION][CLIENT][INFO] Queued pool minelife for addition to table grimoireofgaia:entities/bone_knight
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'damascussteel' for addition to pool 'minelife' of table 'grimoireofgaia:entities/bone_knight'
@@ -169,13 +170,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding 亚麻 to ore dictionary entry flax
 [INITIALIZATION][CLIENT][INFO] Adding 洋麻 to ore dictionary entry flax
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\tomod recipes\crafttable.zs}
-[INITIALIZATION][CLIENT][ERROR] about minecraft\tomod recipes\crafttable.zs:62: Could not resolve <contenttweaker : pillow>
-[INITIALIZATION][CLIENT][ERROR] about minecraft\tomod recipes\crafttable.zs:62: Could not resolve <contenttweaker : bedding>
-[INITIALIZATION][CLIENT][ERROR] about minecraft\tomod recipes\crafttable.zs:62: Could not resolve <contenttweaker : bedding>
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\tomod recipes\furnace.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\tomod recipes\machine.zs}
-[INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for 电炉
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: about minecraft\tools_recipes.zs}
+[INITIALIZATION][CLIENT][ERROR] about minecraft\tomod recipes\crafttable.zs:48: Could not resolve <contenttweaker : pillow>
+[INITIALIZATION][CLIENT][ERROR] about minecraft\tomod recipes\crafttable.zs:48: Could not resolve <contenttweaker : bedding>
+[INITIALIZATION][CLIENT][ERROR] about minecraft\tomod recipes\crafttable.zs:48: Could not resolve <contenttweaker : bedding>
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: adrecipes.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: color.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: construction.zs}
@@ -192,6 +189,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: machine\spinning_frame.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: machine\textile_machine.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\CraftingTable\Camping.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\CraftingTable\IC2.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\CraftingTable\MineLife.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\CraftingTable\RequiousFrakto.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\CraftingTable\Travelers.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\Furnace\furnace.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\IndustiralCraft2\BlastFurnace.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Recipes\Vil\forgetable.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\black_brick_block.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\crash.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\furnace_brick.zs} as we are currently loading with a different loader
@@ -218,7 +223,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Setting localization for the key: tile.minelife.steam_engine.name to Steam Engine
 [INITIALIZATION][CLIENT][INFO] Setting localization for the key: multiblocked.recipe_map.steel to 炼钢
 [INITIALIZATION][CLIENT][INFO] Setting localization for the key: multiblocked.recipe_map.steel to Steel Make
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 320ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 260ms
 [INITIALIZATION][CLIENT][INFO] Translating tile.null.name to 纺织机控制器
 [INITIALIZATION][CLIENT][INFO] Setting localization for the key: tile.minelife.steel_furnace.name to 炼钢炉核心
 [INITIALIZATION][CLIENT][INFO] Setting localization for the key: tile.minelife.steel_furnace.name to Steel Furnace Core
@@ -238,16 +243,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[4:contenttweaker]: reg things\tab\Metal.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[4:contenttweaker]: reg things\tab\textilecraft.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[3:contenttweaker]: reg things\tab\IC_upgrade.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\forgetable.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\furnace.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\ic2.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\loot.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\MineLifeMachine\fuction.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\ore dictionary.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\crafttable.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\furnace.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tomod recipes\machine.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: about minecraft\tools_recipes.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: adrecipes.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: color.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: construction.zs} as we are currently loading with a different loader
@@ -264,6 +263,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: machine\spinning_frame.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: machine\textile_machine.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\Camping.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\IC2.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\MineLife.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\RequiousFrakto.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\CraftingTable\Travelers.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\Furnace\furnace.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\IndustiralCraft2\BlastFurnace.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Recipes\Vil\forgetable.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\black_brick_block.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\crash.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [multiblocked | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: reg things\block\furnace_brick.zs} as we are currently loading with a different loader
@@ -284,11 +291,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes matching: travelersbackpack
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes matching: camping
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 砖窑 with name ct_shaped-208875163
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 青砖 with name ct_shaped1560913065
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 基础机械外壳 with name ct_shaped850977993
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 基础工作台 with name ct_shaped1832805663
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 石墨块 with name ct_shaped-2064695741
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 针 with name ct_shaped-1652850297
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 纺织台 with name ct_shaped-833820470
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 旅行者背包 with name ct_shaped151991542
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 羊绒 with name ct_shapeless699511730
@@ -297,7 +301,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 煤球 with name ct_shapeless-247492308
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 煤炭 with name ct_shapeless-252799104
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 金属融炼炉 with name ct_shaped470443119
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 大马士革钢镐 with name ct_shaped1178002044
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 石 铁匠锤 with name ct_shaped-1377018966
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 基础冶炼炉 with name ct_shaped1779001749
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 棉花块 with name ct_shaped-673431061
@@ -306,17 +309,21 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 帆布背包 with name ct_shaped-956641677
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 背包 with name ct_shaped689618287
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 袋子 with name ct_shaped-76273725
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 大马士革钢镐 with name ct_shaped1178002044
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 青砖 with name ct_shaped1560913065
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 石墨块 with name ct_shaped-2064695741
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 针 with name ct_shaped-1652850297
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <minecraft:iron_ingot>
 [POSTINITIALIZATION][CLIENT][INFO] 4 recipes removed for: <minecraft:iron_ingot>
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <ore:ingot>
 [POSTINITIALIZATION][CLIENT][INFO] 17 recipes removed for: <ore:ingot>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:crude_iron>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:black_brick_block>
-[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@7f166d46 output: 1xitem.ingotIron@0 tool: <artisanworktables:artisans_hammer_stone>
-[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@7f166d46 output: 1xitem.ingotIron@0 tool: <artisanworktables:artisans_hammer_stone>
+[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@767a28da output: 1xitem.ingotIron@0 tool: <artisanworktables:artisans_hammer_stone>
+[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@767a28da output: 1xitem.ingotIron@0 tool: <artisanworktables:artisans_hammer_stone>
 [POSTINITIALIZATION][CLIENT][INFO] Added vil recipe for minecraft:iron_ingot
-[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@7fd9faf8 output: 1xitem.contenttweaker.normal_steel@0 tool: <artisanworktables:artisans_hammer_iron>
-[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@7fd9faf8 output: 1xitem.contenttweaker.normal_steel@0 tool: <artisanworktables:artisans_hammer_iron>
+[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@24fd93c9 output: 1xitem.contenttweaker.normal_steel@0 tool: <artisanworktables:artisans_hammer_iron>
+[POSTINITIALIZATION][CLIENT][INFO] inputs: [Lcrafttweaker.api.item.IIngredient;@24fd93c9 output: 1xitem.contenttweaker.normal_steel@0 tool: <artisanworktables:artisans_hammer_iron>
 [POSTINITIALIZATION][CLIENT][INFO] Added vil recipe for contenttweaker:normal_steel
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "tanner"
 [POSTINITIALIZATION][CLIENT][INFO] Applying MrCrayfish's Furniture Mod changes...
